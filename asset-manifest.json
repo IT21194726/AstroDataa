@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AstoDataa/static/css/main.fe09a133.css",
+    "main.js": "/AstoDataa/static/js/main.07e59da1.js",
+    "index.html": "/AstoDataa/index.html",
+    "main.fe09a133.css.map": "/AstoDataa/static/css/main.fe09a133.css.map",
+    "main.07e59da1.js.map": "/AstoDataa/static/js/main.07e59da1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe09a133.css",
+    "static/js/main.07e59da1.js"
+  ]
+}
