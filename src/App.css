@@ -36,3 +36,238 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+/* Center align placeholder text */
+.form-control::placeholder {
+  text-align: center;
+}
+
+
+.card-custom {
+  height: 450px;
+  width: 250px; /* Adjust width as needed */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 60px; /* Rounded corners */
+  border: 5px solid #007BFF; /* Thick blue border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+.card-img-top {
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Ensures images cover the area without distorting aspect ratio */
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+.card-body {
+  flex-grow: 1;
+  overflow: hidden; /* Hides text that overflows the card body area */
+}
+
+.card-title {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern, clean font */
+    font-size: 18px; /* Slightly larger size for better readability */
+    color: #333; /* Darker color for contrast */
+}
+
+.card-text {
+  
+  height: 120px; 
+  
+  font-size: 14px;
+    color: #666; 
+    overflow-y: auto; 
+}
+
+.card:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25); 
+}
+
+.custom-font {
+  font-family: 'Roboto', sans-serif; 
+}
+
+.animate-card {
+  transition: transform .2s; 
+}
+
+.animate-card:hover {
+  transform: scale(1.05); 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.interactive-card {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease-out;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.interactive-card:hover .card-info {
+  transform: translateY(0);
+}
+
+.interactive-card:hover .card-bg {
+  transform: scale(1.1);
+}
+
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.carde {
+  background-color: #FFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  width: 240px; 
+  height: 320px; 
+}
+
+
+.carde-img-top {
+  width: 100%;
+  height: 65%; 
+  object-fit: cover;
+  transition: transform 0.5s ease; 
+}
+
+
+.carde-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.carde-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.carde-text {
+  font-size: 14px;
+  color: #666;
+}
+
+
+.carde:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.carde:hover .carde-img-top {
+  transform: scale(1.05); 
+}
+
+
+.carde:focus-within {
+  box-shadow: 0 0 0 2px #0056b3; 
+}
+
+
+.carde-rotate {
+  transform-style: preserve-3d;
+  perspective: 1000px; 
+}
+
+
+.carousel-item {
+  height: 500px; 
+  overflow: hidden; 
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  transition: none;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.home div {
+  width: 50%;
+  padding: 20px;
+}
+
+
+
+.carousel-caption h5 {
+  
+  padding: 10px;
+}
+
+
+.carousel-link {
+  color: white;
+  padding: 10px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: auto;
+  align-items: start; 
+}
+
+.carousel {
+  margin-top: -20px; 
+}
+
+.custom-img {
+  border-radius: 15px; 
+}
